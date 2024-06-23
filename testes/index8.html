@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Peso Ideal</title>
+</head>
+<body>
+    <h2>Calculadora de Peso Ideal</h2>
+    
+    <label for="altura">Altura (metros):</label>
+    <input type="number" step="0.01" id="altura" required>
+    
+    <label for="sexo">Sexo:</label>
+    <input type="radio" id="masculino" name="sexo" value="masculino"> Masculino
+    <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+    
+    <button type="button" onclick="calcularPesoIdeal()">Calcular</button>
+    
+    <p id="resultado"></p>
+    
+</body>
+<script src="script8.js"></script>
+</html>
